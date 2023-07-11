@@ -1,1 +1,3 @@
-# arindammajee.github.io
+# This is for my personal website
+The whole template is copied from my the website of my lovely super senior Bindita Chaudhuri Didi - https://bindita.github.io/
+
