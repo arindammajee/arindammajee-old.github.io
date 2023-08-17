@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ensemble</title>
+
+    <!-- Custom fonts for this template-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <!-- Custom styles for this template-->
+    <!-- <link href="css/sb-admin-2.min.css" rel="stylesheet"> -->
+    <link href="../../css/styles.css" rel="stylesheet">
+
+</head>
+
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+          
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class=" align-items-center justify-content-between mt-5 mb-4 text-center">
+                        <h1 class="h1 mb-0 text-gray-800 text-center">Prediction of COVID-19 from Chest CT Images Using an Ensemble of Deep Learning Models</h1>
+                       
+                    </div>
+
+                    <div class=" align-items-center justify-content-between text-center">
+                        <!-- Content Row -->
+                    	<div class="row">
+                            <div class="col-xl-3 col-md-3 mb-3 align-items-center"></div>
+                            <div class="col-xl-2 col-md-2 mb-2 align-items-center">
+                                <h3> <a href="">Shreya Biswas</a><sup>1</sup></h3>
+                            </div>
+                            <!-- <div class="col-xl-1 col-md-1 mb-4 align-items-center">	
+                            </div> -->
+                            <div class="col-xl-2 col-md-2 mb-4 align-items-center">
+                                <h3> <a href="http://chris.bregler.com/">Somnath Chatterjee</a><sup>2</sup></h3>
+                            </div>
+                            <!-- <div class="col-xl-1 col-md-1 mb-4 align-items-center">	
+                            </div> -->
+                            <div class="col-xl-2 col-md-2 mb-4 align-items-center">
+                                <h3> <a href="https://niessnerlab.org/members/matthias_niessner/profile.html">Arindam Majee</a><sup>1</sup></h3>
+                            </div>
+                    	</div>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-3 mb-4 align-items-center"></div>
+                            <div class="col-xl-2 col-md-2 mb-4 align-items-center">
+                                <h3> <a href="https://niessnerlab.org/members/matthias_niessner/profile.html">Shibaprasad Sen</a><sup>3</sup></h3>
+                            </div>
+                            <!-- <div class="col-xl-1 col-md-1 mb-4 align-items-center">	
+                            </div> -->
+                            <div class="col-xl-2 col-md-2 mb-4 align-items-center">
+                                <h3> <a href="https://niessnerlab.org/members/matthias_niessner/profile.html">Friedhelm Schwenker</a><sup>4</sup></h3>
+                            </div>
+                            <!-- <div class="col-xl-1 col-md-1 mb-4 align-items-center">	
+                            </div> -->
+                            <div class="col-xl-2 col-md-2 mb-4 align-items-center">
+                                <h3> <a href="https://niessnerlab.org/members/matthias_niessner/profile.html">Ram Sarkar</a><sup>1</sup></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" align-items-center justify-content-between text-center">
+                        <!-- Content Row -->
+                    	<div class="row">
+                        <div class="align-items-center">	
+                        </div>
+                            <div class="col align-items-center">
+                                <h5></a><sup>1</sup>Jadavpur University</h5>
+                            </div>
+                            
+                            <div class="col align-items-center">
+                                <h5></a><sup>2</sup>Future Institute of Engineering and Management</h5>
+                            </div>
+
+                            <div class="col align-items-center">
+                                <h5></a><sup>3</sup>University of Engineering and Management</h5>
+                            </div>
+                            
+                            <div class="col align-items-center">
+                                <h5></a><sup>4</sup>Ulm University</h5>
+                            </div>
+                    	</div>
+                    </div>
+
+                     <div class=" align-items-center justify-content-between text-center">
+                        <!-- Content Row -->
+                    	<div class="row">
+                        <div class="col-xl-12 col-md-12 mb-4 align-items-center">
+                            	<div class="card-body">
+                            		<div class="no-gutters align-items-center ">
+                            		<div class="">
+                            	
+                            			<a class="btn btn-primary lift btn-lg ml-3 mr-3 rounded-pill" href="https://docs.google.com/forms/d/13kJQ2wlv7sxyXoaM1Ddon6Nq7dUJY_oftl-6xzwTGow" target="_blank">
+										    <i class="fas fa-database fa-1x mr-3"></i>Dataset
+										</a>
+                            			
+                            			<a class="btn btn-primary lift btn-lg ml-3 mr-3 rounded-pill" href="https://arxiv.org/abs/2101.06278" target="_blank">
+										    <i class="ai ai-arxiv ai-1x mr-3"></i>Paper
+										</a>
+                            			
+                                        <!--
+                                        <a class="btn btn-primary lift btn-lg ml-3 mr-3 rounded-pill" href="https://youtu.be/riI3Cl2xy10" target="_blank">
+										    <i class="fab fa-youtube fa-1x mr-3"></i> Video
+										</a>
+                                        -->
+                            			
+                            			<a class="btn btn-primary lift btn-lg ml-3 mr-3 rounded-pill" href="https://github.com/shivangi-aneja/COSMOS" target="_blank">
+										    <i class="fab fa-github fa-1x mr-3"></i> GitHub
+										</a>
+
+                                        <a class="btn btn-primary lift btn-lg ml-3 mr-3 rounded-pill" href="./assets/cosmos_paper.pdf" target="_blank">
+										    <i class="fas fa-file-pdf fa-1x mr-3"></i> PDF
+										</a>
+                            			
+                            		</div>
+                            			
+                            		</div>
+
+                                    <div class="row">
+                             <div class="col-xl-2 col-lg-2"></div>
+
+                             <div class="col-xl-8 col-lg-8">
+
+                                    <!-- Concept Figure -->
+                                    <div>
+                                        <div>
+                                            <h2 class="m-0 font-weight-bold text-dark mt-5">Concept Figure</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="text-center">
+                                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 justify-content-between"
+                                                    src="img/teaser_fig.gif" alt="">
+                                            </div>
+                                            <p>In this paper, we used three models—VGG-16, ResNet50, and Xception—for the
+                                                prediction of the COVID-19 disease and achieved 98.39%, 94.57%, and 96.17% recognition
+                                                accuracies. We proposed an ensemble-based learning approach by combining the power
+                                                of these said three models in search of increasing prediction capability and achieved
+                                                98.79% accuracy. We achieved better recognition accuracy for the prediction of COVID-
+                                                19 cases as compared to the methods.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Concept Figure -->
+                                    <div>
+                                        <div>
+                                            <h2 class="m-0 font-weight-bold text-dark mt-4">ABSTRACT</h2>
+                                        </div>
+                                        <div class="card-body">
+                                        <p>The novel SARS-CoV-2 virus, responsible for the dangerous pneumonia-type disease,
+                                            COVID-19, has undoubtedly changed the world by killing at least 3,900,000 people as of June 2021
+                                            and compromising the health of millions across the globe. Though the vaccination process has started,
+                                            in developing countries such as India, the process has not been fully developed. Thereby, a diagnosis
+                                            of COVID-19 can restrict its spreading and level the pestilence curve. As the quickest indicative choice,
+                                            a computerized identification framework ought to be carried out to hinder COVID-19 from spreading
+                                            more. Meanwhile, Computed Tomography (CT) imaging reveals that the attributes of these images
+                                            for COVID-19 infected patients vary from healthy patients with or without other respiratory diseases,
+                                            such as pneumonia. This study aims to establish an effective COVID-19 prediction model through
+                                            chest CT images using efficient transfer learning (TL) models. Initially, we used three standard deep
+                                            learning (DL) models, namely, VGG-16, ResNet50, and Xception, for the prediction of COVID-19.
+                                            After that, we proposed a mechanism to combine the above-mentioned pre-trained models for the
+                                            overall improvement of the prediction capability of the system. The proposed model provides 98.79%
+                                            classification accuracy and a high F1 -score of 0.99 on the publicly available SARS-CoV-2 CT dataset.
+                                            The model proposed in this study is effective for the accurate screening of COVID-19 CT scans and,
+                                            hence, can be a promising supplementary diagnostic tool for the forefront clinical specialists.</p>
+                                        <div class="text-center">
+                                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 justify-content-between col-lg-12 col-sm-12 col-xl-12 col-md-12"
+                                                src="img/ooc_vs_nooc.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Video-->
+                                <!---->
+                                <!--
+
+                                    <div>
+                                <div>
+                                    <h2 class="m-0 font-weight-bold text-dark mt-4">VIDEO</h2>
+                                </div>
+                                <div class="card-body">
+                                   <div class="row">-->
+                                    <!--                        			<div class="mb-4 col-xl-2 col-lg-2"></div>-->
+                                    <!--	                            	<div class="mb-4 col-xl-8 col-lg-8">--><!-- 
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/riI3Cl2xy10" allowfullscreen></iframe>
+                                        </div>
+                                    									<div class="mb-4 col-xl-2 col-lg-2"></div>
+                                    </div>
+                                    </div>
+                                                                    -->
+
+
+                                <!-- Dataset Details -->
+                                <div>
+                                    <div>
+                                        <h2 class="m-0 font-weight-bold text-dark mt-5">Dataset Details</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="font-weight-bold">The <a href="http://dx.doi.org/10.1101/2020.04.24.20078584">SARS-CoV-2 CT scan dataset</a> was used in the current experiment for the
+                                            detection of COVID-19 cases. The dataset consists of a total of 2482 CT-scan images, out of
+                                            which 1252 are positive for SARS-CoV-2 infection i.e., COVID-19 (+ve), and the remaining
+                                            1230 are negative for SARS-CoV-2 infection, i.e., COVID-19 (-ve). These data have been
+                                            collected from real patients in hospitals from Sao Paulo, Brazil. The aim of this dataset
+                                            is to encourage the research and development of AI methods that are able to identify
+                                            SARS-CoV-2 infection through the analysis of CT scans.</p>
+                                        <div class="row">
+                                            <!-- Bar Chart -->
+                                            <div class="mb-4 col-xl-12 col-lg-12">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                </div>
+                    </div>
+
+
+                                 <!-- Results -->
+                                 <div>
+                        <div>
+                            <h2 class="m-0 font-weight-bold text-dark">Results</h2>
+                        </div>
+                        <h6 class="m-0 font-weight-bold text-dark mt-4">Qualitative Results </h6>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 lift"
+                                    src="img/ooc_1.jpeg" alt="">
+                               <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 lift"
+                                src="img/ooc_2.jpeg" alt="">
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 lift"
+                                src="img/ooc_3.jpeg" alt="">
+                            </div>
+
+                            <div class="row">
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 lift"
+                                    src="img/nooc_1.jpeg" alt="">
+                               <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 lift"
+                                src="img/nooc_2.jpeg" alt="">
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 lift"
+                                src="img/nooc_3.jpeg" alt="">
+                            </div>
+
+
+                            <p> Qualitative results showing visual grounding of captions with the objects in the image. The top row show the grounding for out-of-context pairs and the bottom row show the grounding for pairs which are not out-of-context. We show object-caption scores for two captions per image. The captions with <span class="text-success">green</span> border show the true captions and the captions with <span class="text-danger">red</span> border show the false caption. Scores indicate association of the most relevant object in the image with the caption.</p>
+                        </div>
+
+					<h6 class="m-0 font-weight-bold text-dark">Comparison with alternate baselines </h6>
+
+					<div class=" mb-4">
+                        <div class="chart-bar">
+                                <canvas id="BarChartResults"></canvas>
+                            </div>
+                            <hr>
+
+                            <p>We compare our method against several rumor and fake news detection methods. Our method outperforms all other methods, resulting in 85% out-of-context detection accuracy.</br>
+
+                             Please refer to our paper for more details.</p>
+                        </div>
+                    </div>
+
+                                <!-- Bibtex-->
+                                 <div>
+                                <div>
+                                    <h2 class="m-0 font-weight-bold text-dark mt-5">BibTeX</h2>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-left">
+                                    	<p>If you find this work useful for your research, please consider citing:</p>
+                                        <pre><code>@inproceedings{aneja2021cosmos,
+    title={{COSMOS}: Catching {O}ut-of-{C}ontext {M}isinformation with {S}elf-{S}upervised {L}earning},
+    author={Shivangi Aneja and Chris Bregler and Matthias Nie{\ss}ner},
+    booktitle={ArXiv preprint arXiv:2101.06278},
+    year={2021}
+}
+
+										</code></pre>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                             </div>
+                            	</div>
+                    </div>
+                        </div>
+                     </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+           <!--  <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer> -->
+            <footer class="footer mt-auto footer-light">
+                <div class="container-fluid">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Arindam Majee 2023</span><br>
+                        <span>Made with <span class="text-primary"><a href="https://startbootstrap.com/theme/sb-admin-2" >Bootstrap</a></span></span>
+                    </div>
+                </div>
+                <a class="btn btn-primary lift btn-lg scroll-to-top rounded ml-3 mr-3 lift" href="#page-top">
+			        <i class="fas fa-angle-up"></i>
+			    </a>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <div hidden>
+        <div class="row">
+        <div class="col-md-6 mt-4">
+        
+            <div class="icon-box" style="text-align: right;">
+            <i class="ri-eye-line" style="color: #ffa76e;"></i>
+                <!-- hitwebcounter Code START -->
+            <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7806575&style=0009&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" />      
+            </a>
+        </div>
+        
+        </div>
+
+        </div>
+        <div class="row "></div>
+        <div class="icon-box" style="text-align: right;">
+        <!-- hitwebcounter Code START -->
+        <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7806576&style=0009&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" />
+        </a>      
+        </div>
+
+
+    </div>
+</div>
+    
+
+
+
+    <!-- Bootstrap core JavaScript-->
+
+</body>
+
+</html>
